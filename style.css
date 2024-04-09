@@ -3,7 +3,7 @@ nav {
 }
 
 footer {
-    background-color: #7a6868;
+    background-color: #bd2c2c;
     text-align: center;
     padding: 20px;
     /* Con esto solucionamos el sticly footer*/
@@ -11,4 +11,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+h1 {
+    color: rebeccapurple;
 }
