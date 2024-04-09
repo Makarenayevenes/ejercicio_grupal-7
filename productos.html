@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Te lo vendo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    <!-- Opcional: CSS de Bootstrap para DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="">
+    <header class="mb-3">
+        <!-- Comienzo de navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Te lo vendo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="site-content container">
+        <section>
+          <div>
+            <h2 class="text-center mb-4">Busqueda de productos</h2>
+          </div>
+          <div>
+            <table class="table table-light" id="infoTable">
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Marca</th>
+                  <th>Monto</th>
+                  <th>Busqueda</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Notebook HP Pavilion Plus Intel Core i7-1355U 14" 16GB 1TB SSD NVIDIA GeForce RTX 2050 4GB Windows 11 Space Blue 14-eh1003la</td>
+                  <td>HP</td>
+                  <td>$ 799.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Unidad de Estado Sólido Kingston FURY Renegade, 1TB, PCIe 4.0, NVMe M.2</td>
+                  <td>KINGSTON</td>
+                  <td>$$122.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Gabinete Gamer Kolink Observatory HF Mesh ARGB, MIDI TOWER, Color Negro, Incluye 6 Ventiladores</td>
+                  <td>KOLINK</td>
+                  <td>$59.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Monitor Gamer LG UltraGear 24GN60R-B, 24" FHD, Panel IPS, 144hz, 1ms, FreeSync Premium, HDR</td>
+                  <td>LG</td>
+                  <td>$144.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Silla Gamer Profesional DXRacer G Series, Reclinable 135º, Hasta 110kg, Black/Red</td>
+                  <td>DXRACER</td>
+                  <td>$449.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Silla Gamer Profesional Sharkoon ELBRUS 1, Hasta 120Kg, Reposabrazos abatibles, Black/Red</td>
+                  <td>SHARKOON</td>
+                  <td>$76.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Tarjeta de Video GIGABYTE GeForce RTX 4060 GAMING OC, 8GB GDDR6, 128-bit, PCI-e 4.0</td>
+                  <td>GIGABYTE</td>
+                  <td>$399.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Monitor Gamer Curvo Titan Army 27C1G, FHD (1920x1080), 27'', 165Hz, VA, 1ms, 2 x HDMI, 1 x DP, Audio</td>
+                  <td>TITAN ARMY</td>
+                  <td>$144.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Controlador de Transmisión ELGATO Stream Deck Mini 10GAI9901</td>
+                  <td>ELGATO</td>
+                  <td>$74.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+                <tr>
+                  <td>Webcam Logitech C922 Pro Stream, Full HD 1080p USB, streaming alta calidad Twitch y YouTube</td>
+                  <td>LOGITECH</td>
+                  <td>$72.990</td>
+                  <td><button type="button" class="btn btn-primary">IR</button></td>
+                </tr>
+             </tbody>
+          </table>
+          </div>
+
+             
+        </section>
+    </main>
+
+
+
+
+    <script src="validaciones.js"></script>
+
+    <footer class="text-center mt-3 bg-danger-subtle p-4">
+      <p>&copy; Te lo vendo - 2024</p>
+      <span> Juan Jorquera Retamales - makarena yevenes </span>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <!-- Opcional: JS de Bootstrap para DataTables -->
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('#infoTable').DataTable({
+          "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.10.21/i18n/Spanish.json"
+          }
+        })
+      })
+    </script>
+  </body>
+</html>

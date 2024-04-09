@@ -1,0 +1,14 @@
+nav {
+    background-color: #F8D7DA;
+}
+
+footer {
+    background-color: #7a6868;
+    text-align: center;
+    padding: 20px;
+    /* Con esto solucionamos el sticly footer*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

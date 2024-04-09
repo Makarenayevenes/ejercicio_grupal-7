@@ -1,0 +1,16 @@
+Nombre del proyecto: Te lo Vendo - Iteracion 11
+Tema: Implementacion del plugins derivados de jQuery.
+Ejercicio: AE6_ABPRO_JQuery
+
+Nombre integrantes: Juan Jorquera Retamales - Makarena yevenes 
+
+
+Pasos de implementacion Plugins jQuery -- Fancybox, Datatables.
+
+Primero: Realizamos traemos el CDN y script de Fancybox y datatables a nuestras paginas donde queremos integrar los plugins.
+Segundo: agregamos las lineas de codigos necesarias con las clases indicadas en los plugins para que estos traigan los efectos que seleccionamos para nuestras imagenes y el diseño de la tabla de datos.
+Tercero: Procedemos a integrar nuestras imagenes para la galeria de fancybox, esta vez ya teniamos la imagenes seleccionadas, solo agregamos el plugins a estas. Ademas de agregar una nueva pagina .html, en donde agregamos la tabla con los datos de productos.
+Cuarto: Una vez que terminamos de realizar modificaciones visuales a la galeria y a la tabla con CSS, procedemos a subir la todas las paginas con los codigos a un nuevo repositorio en GitHub con git bash.
+
+Ruta repositorio GitHub : https://github.com/jjjorquera/teLoVendo
+
